@@ -1,0 +1,58 @@
+@media only screen and (max-width: 980px) {
+    #nav_container1{
+        gap: 0;
+    }
+}
+@media only screen and (max-width: 677px) {
+    #nav_container1{
+        gap: 0;
+    }
+}
+
+
+@media only screen and (max-width: 730px) {
+    .main_title {
+        font-size: 29px;
+    }    
+    .sub_title {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 545px) {
+    .main_title {
+        font-size: 20px;
+    }    
+    .sub_title {
+        font-size: 14px;
+    }
+
+    .date_posted {
+        font-size: 12px;
+    }
+    
+    .blog_content {
+        width: 70%;
+    }
+    
+    .title_subheading_date_container{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 494px) {
+    .name {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .name {
+        font-size: 22px;
+    }
+    .profession{
+        font-size: 14px;
+    }
+
+    .Introduction_heading, .heading_no_2, .heading_no_3, .conclusion_heading {
+        font-size: 28px;
+    }
+}

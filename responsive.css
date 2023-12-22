@@ -1,0 +1,152 @@
+@media only screen and (max-width: 980px) {
+    #nav_container1{
+        gap: 0;
+    }
+
+    #nav_text::before,
+    #nav_text::after,
+    #nav_text:hover::before,
+    #nav_text:hover::after,
+    .active::before,
+    .active::after {
+        transform: scaleX(0);
+    }
+}
+@media only screen and (max-width: 677px) {
+    #nav_container1{
+        gap: 0;
+    }
+}
+
+
+@media only screen and (max-width: 494px) {
+    .name {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .name {
+        font-size: 22px;
+    }
+    .profession{
+        font-size: 14px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+    .section_1{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .welcome_container{
+        text-align: center;
+        width: 50%;
+    }
+
+    .blog_1_container {
+        width: 384px;
+    }
+
+    .blog_1_img {
+        width: 339px;
+    }
+
+    .blog_1_title {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1210px) {
+
+    .blog_1_container {
+        width: 336px;
+    }
+
+    .blog_1_img {
+        width: 287px;
+    }
+
+}
+
+@media only screen and (max-width: 1080px){
+
+    .section_2_heading {
+        font-size: 29px;
+    }
+
+    .blogs_boxes {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media only screen and (max-width: 720px){
+
+    .welcome_container .welcome_content {
+        font-size: 22px;
+    }
+
+
+}
+
+@media only screen and (max-width: 540px){
+    .blog_1_container {
+        width: 293px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog_1_img {
+        width: 252px;
+    }
+
+    .blog_1_title {
+        font-size: 16px;
+    }
+
+    .welcome_container .welcome_heading {
+        font-size: 56px;
+    }
+
+    .profile_container {
+        width: 259px;
+    }
+
+    .profile_img {
+        width: 208px;
+        height: 208px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .blog_1_container {
+        width: 273px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog_1_img {
+        width: 233px;
+    }
+
+}
+
+@media only screen and (max-width: 405px){
+
+    .welcome_container .welcome_content {
+        font-size: 18px;
+    }
+    .welcome_container .welcome_heading {
+        font-size: 41px;
+    }
+
+    .welcome_container .welcome_content_2 {
+        font-size: 20px;
+    }
+}
