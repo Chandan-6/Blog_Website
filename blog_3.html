@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../Blog_Website_Media/blog.png">
+    <link rel="stylesheet" href="blog_3_style.css">
+    <link rel="stylesheet" href="responsive_blog3.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Installation of Tailwindcss</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" >
+      <div class="container-fluid" id="nav_container1"  data-aos="zoom-out-down" data-aos-delay="200">
+        <div class="nav_name_role">
+            <p class="name">Khamitkar Sai Chandan</p>
+            <p class="profession">Student | Web Developer</p>
+        </div>
+        <button class="navbar-toggler border-light text-white" style="filter: drop-shadow(1px 1px 0.5px white);" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav_ul">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" id="nav_text" data-aos="zoom-out-down" data-aos-delay="200">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" id="nav_text" data-aos="zoom-out-down" data-aos-delay="200">Topics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://portfolio-chandan-6.netlify.app/" id="nav_text" target="_blank" data-aos="zoom-out-down" data-aos-delay="200">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+
+    <div class="main_container">
+
+      <div class="title_subheading_date_container">
+        <p class="main_title">Guide for Installation of Tailwind CSS</p>
+        <p class="sub_title">A Simple way to install Tailwind CSS to your Project.</p>
+        <p class="date_posted">Posted on: 16 Jan 2024</span></p>
+      </div>  <!-- End of title_subheading_date_container -->
+      
+      <div class="blog_content">
+
+        <img src="../Blog_Website_Media/blog_3_media/installation_pic.jpg" alt="TailwindCSS_wallpaper" class="tailwind_install_pic">
+
+        <p class="Introduction_heading">Introduction</p>
+        <p class="introduction_content">
+            If you're ready to elevate your web development game with a sleek and customizable styling framework, you've come to the right place. In this step-by-step tutorial, I'll walk you through the seamless installation process of Tailwind CSS, empowering you to create stunning, responsive designs for your websites. Let's dive in and unlock the potential of Tailwind CSS together!
+        </p>
+        <br>
+
+        <!-- ---------------------------- -->
+        
+        <p class="heading_no_2">Basic Necessities</p>
+        <p class="Content_no_2-1">
+            To Install Tailwind CSS to your project. You must pre install <strong style="color: rgb(91, 196, 225);"> VS-code, Nodejs softwares</strong>.
+        </p>
+
+        <!-- ----------------------- -->
+        
+        <br>    
+        
+        <!-- -----------Step-1------------ -->
+            <p class="heading_no_3">Step-1:</p>
+            <p class="Content_no_3-1">
+                Go to VS-code and go to: Terminal > New Terminal.
+            </p>
+            <img src="../Blog_Website_Media/blog_3_media/step_1.png" alt="step-1 image" class="step_1_img">
+        
+        
+
+        <!-- -----------Step-2------------ -->
+            <p class="heading_no_3">Step-2:</p>
+            <p class="Content_no_3-1">
+                In the terminal type this ➡️ <b>npm init -y</b> This will create a package.json file.
+            </p>
+
+            <!--=====================Things to understand box -->
+            <div class="things_to_understand">
+                <p style="color: red;">Note:</p>
+                <p>npm init -y initializes a new Node.js project with default values, accepting all default configurations without prompting for user input.</p>
+            </div>
+
+            <div class="code_box">
+                <p>npm init -y</p> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                </svg>
+            </div>
+            <br>
+            <img src="../Blog_Website_Media/blog_3_media/step_2.png" alt="step-1 image" class="step_1_img">
+
+
+
+        <!-- -----------Step-3------------ -->
+            <p class="heading_no_3">Step-3:</p>    
+            <p class="Content_no_3-1">
+                For Organizing your files(index.html, style.css, script.js), create a <b>public folder</b> where you can store index.html, style.css, script.js;
+            </p>
+            <img src="../Blog_Website_Media/blog_3_media/step_3.png" alt="step-1 image" class="step_3_img">
+
+
+
+        <!-- -----------Step-4------------ -->
+            <p class="heading_no_3">Step-4:</p> 
+            <p class="Content_no_3-1">
+                Go to terminal an execute this part : <b>npm install -D tailwindcss</b>, this will create a node_module folder, package.json & package-lock.json files.
+            </p>
+            
+            <!--=====================Things to understand box -->
+            <div class="things_to_understand">
+                <p style="color: red;">Note:</p>
+                <p>The command npm install -D tailwindcss installs Tailwind CSS as a development dependency for a Node.js project. The -D flag indicates that it should be saved as a devDependency in the project's package.json file. This is commonly done for tools and libraries that are used during development but not required for the production deployment of the project.</p>
+            </div>
+            
+            <div class="code_box">
+                <p>npm install -D tailwindcss</p> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                </svg>
+            </div>
+            <br>
+            <img src="../Blog_Website_Media/blog_3_media/step_4.png" alt="step-1 image" class="step_1_img">
+
+
+
+        <!-- -----------Step-5------------ -->
+            <p class="heading_no_3">Step-5:</p>   
+            <p class="Content_no_3-1">
+                For initialization execute this <b>npx tailwindcss init</b> in terminal. This will create tailwind.config.js.
+            </p> 
+            <div class="code_box">
+                <p>npx tailwindcss init</p> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                </svg>
+            </div>
+            <br>
+            <img src="../Blog_Website_Media/blog_3_media/step_5.png" alt="step-1 image" class="step_1_img">
+
+
+
+        <!-- -----------Step-6------------ -->
+            <p class="heading_no_3">Step-6:</p> 
+            <p class="Content_no_3-1">
+                Go to tailwind.config.js and make changes as shown in below Image.
+            </p>
+            <img src="../Blog_Website_Media/blog_3_media/step_6.png" alt="step-1 image" class="step_3_img">
+
+            
+
+        <!-- -----------Step-7------------ -->
+            <p class="heading_no_3">Step-7:</p>
+            <p class="Content_no_3-1">
+                create a folder names <b>src</b> and in that create a <b>input.css</b> file where all the tailwind css directive will be stored. And here you can create your custom class.
+            </p>
+            <img src="../Blog_Website_Media/blog_3_media/step_7.png" alt="step-1 image" class="step_3_img">
+
+
+
+        <!-- -----------Step-8------------ -->
+            <p class="heading_no_3">Step-8:</p>
+            <p class="Content_no_3-1">
+                Fill the <b>input.css</b> file as shown below.
+            </p>
+            <img src="../Blog_Website_Media/blog_3_media/step_8.png" alt="step-1 image" class="step_1_img">
+
+
+
+        <!-- -----------Step-9------------ -->
+            <p class="heading_no_3">Step-9:</p>
+            <p class="Content_no_3-1">
+                Now in the terminal execute run this : <b>npx tailwindcss -i ./src/input.css -o ./public/style.css --watch</b> here --watch is necessary because when you open your project later, every time you have to run this code to apply new changes of tailwind css. To this simple please refer next step.
+            </p>
+            <!--=====================Things to understand box -->
+            <div class="things_to_understand">
+                <p style="color: red;">Note:</p>
+                <p>This command uses npx to run Tailwind CSS, instructing it to process the ./src/input.css file, generate the output in ./public/style.css, and continuously watch for changes (--watch). It's a way to dynamically apply Tailwind CSS styles to your project during development. Here -i refers to "input" and -o refers to "output"</p>
+            </div>
+            
+            <div class="code_box">
+                <p>npx tailwindcss -i ./src/input.css -o ./public/style.css --watch</p> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                </svg>
+            </div>
+            <br>
+            <img src="../Blog_Website_Media/blog_3_media/step_9.png" alt="step-1 image" class="step_1_img">
+
+
+
+        <!-- -----------Step-10------------ -->
+            <p class="heading_no_3">Step-10:</p>
+            <p class="Content_no_3-1">
+                Go to <b>package.json</b> file in the scripts make changes as shown in the below two images.
+            </p>
+            <img src="../Blog_Website_Media/blog_3_media/step_10.png" alt="step-1 image" class="step_1_img">
+            <div class="code_box">
+                <p>tailwindcss -i ./src/input.css -o ./public/style.css --watch</p> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                </svg>
+            </div>
+            <br>
+            <img src="../Blog_Website_Media/blog_3_media/step_11.png" alt="step-1 image" class="step_1_img">
+
+
+
+        <!-- -----------Step-11------------ -->
+            <p class="heading_no_3">Step-11:</p> 
+            <p class="Content_no_3-1">
+                Now last step is to link tailwind css to html.
+            </p>
+            <img src="../Blog_Website_Media/blog_3_media/step_12.png" alt="step-1 image" class="step_1_img">
+
+        <!-- Conclusion--================ -->
+            <p class="conclusion_heading">Conclusion</p>
+
+            <p class="conclusion_content">
+                Congratulations! You've successfully navigated through the installation process of Tailwind CSS. Now armed with this powerful styling framework, you're well on your way to crafting visually appealing and responsive web designs effortlessly. As you continue your journey with Tailwind, don't forget to explore its extensive documentation and leverage its utility-first approach to streamline your workflow. With Tailwind CSS at your disposal, the possibilities for creating modern, eye-catching interfaces are endless<strong style="color: yellow;"> Happy coding!</strong>
+            </p>
+
+      </div>
+
+
+    </div>     <!--End of main container -->
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
