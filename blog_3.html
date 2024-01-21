@@ -69,7 +69,8 @@
         <!-- -----------Step-1------------ -->
             <p class="heading_no_3">Step-1:</p>
             <p class="Content_no_3-1">
-                Go to VS-code and go to: Terminal > New Terminal.
+                Go to VS-code and go to: Terminal > New Terminal <b>OR</b> Shortcut key : <strong style="color: rgb(91, 196, 225);">ctrl + shift + `</strong>.
+            </p>.
             </p>
             <img src="../Blog_Website_Media/blog_3_media/step_1.png" alt="step-1 image" class="step_1_img">
         
@@ -78,17 +79,17 @@
         <!-- -----------Step-2------------ -->
             <p class="heading_no_3">Step-2:</p>
             <p class="Content_no_3-1">
-                In the terminal type this ➡️ <b>npm init -y</b> This will create a package.json file.
+                In the terminal type this ➡️ <b>npm install -D tailwindcss</b>, this will create a node_module folder, package.json & package-lock.json files.
             </p>
 
             <!--=====================Things to understand box -->
             <div class="things_to_understand">
                 <p style="color: red;">Note:</p>
-                <p>npm init -y initializes a new Node.js project with default values, accepting all default configurations without prompting for user input.</p>
+                <p>npm install -D tailwindcss Install tailwindcss via npm, and create your tailwind.config.js file.</p>
             </div>
 
             <div class="code_box">
-                <p>npm init -y</p> 
+                <p>npm install -D tailwindcss</p> 
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
                     <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
                 </svg>
@@ -99,39 +100,7 @@
 
 
         <!-- -----------Step-3------------ -->
-            <p class="heading_no_3">Step-3:</p>    
-            <p class="Content_no_3-1">
-                For Organizing your files(index.html, style.css, script.js), create a <b>public folder</b> where you can store index.html, style.css, script.js;
-            </p>
-            <img src="../Blog_Website_Media/blog_3_media/step_3.png" alt="step-1 image" class="step_3_img">
-
-
-
-        <!-- -----------Step-4------------ -->
-            <p class="heading_no_3">Step-4:</p> 
-            <p class="Content_no_3-1">
-                Go to terminal an execute this part : <b>npm install -D tailwindcss</b>, this will create a node_module folder, package.json & package-lock.json files.
-            </p>
-            
-            <!--=====================Things to understand box -->
-            <div class="things_to_understand">
-                <p style="color: red;">Note:</p>
-                <p>The command npm install -D tailwindcss installs Tailwind CSS as a development dependency for a Node.js project. The -D flag indicates that it should be saved as a devDependency in the project's package.json file. This is commonly done for tools and libraries that are used during development but not required for the production deployment of the project.</p>
-            </div>
-            
-            <div class="code_box">
-                <p>npm install -D tailwindcss</p> 
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
-                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
-                </svg>
-            </div>
-            <br>
-            <img src="../Blog_Website_Media/blog_3_media/step_4.png" alt="step-1 image" class="step_1_img">
-
-
-
-        <!-- -----------Step-5------------ -->
-            <p class="heading_no_3">Step-5:</p>   
+            <p class="heading_no_3">Step-3:</p>   
             <p class="Content_no_3-1">
                 For initialization execute this <b>npx tailwindcss init</b> in terminal. This will create tailwind.config.js.
             </p> 
@@ -142,82 +111,78 @@
                 </svg>
             </div>
             <br>
-            <img src="../Blog_Website_Media/blog_3_media/step_5.png" alt="step-1 image" class="step_1_img">
+            <img src="../Blog_Website_Media/blog_3_media/step_3.png" alt="step-1 image" class="step_1_img">
+
+
+
+        <!-- -----------Step-4------------ -->
+            <p class="heading_no_3">Step-4:</p> 
+            <p class="Content_no_3-1">
+                Go to tailwind.config.js and make changes as shown in below Image. 
+            </p>
+            <div class="code_box">
+                <p>"./src/**/*.{html,js}"</p> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                </svg>
+            </div>
+            <img src="../Blog_Website_Media/blog_3_media/step_4.png" alt="step-1 image" class="step_3_img">
+
+            
+
+        <!-- -----------Step-5------------ -->
+            <p class="heading_no_3">Step-5:</p>
+            <p class="Content_no_3-1">
+                create a folder names <b>src</b> and in that create a <b>input.css, index.html</b> file where all the tailwind css directive, index.html will be stored. And here you can create your custom class.
+            </p>
 
 
 
         <!-- -----------Step-6------------ -->
-            <p class="heading_no_3">Step-6:</p> 
+            <p class="heading_no_3">Step-6:</p>
             <p class="Content_no_3-1">
-                Go to tailwind.config.js and make changes as shown in below Image.
+                Fill the <b>input.css</b> file as shown below.
             </p>
-            <img src="../Blog_Website_Media/blog_3_media/step_6.png" alt="step-1 image" class="step_3_img">
+            <div class="code_box">
+                <p>@tailwind base;</p> 
+                <p>@tailwind components;</p> 
+                <p>@tailwind utilities;</p> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                </svg>
+            </div>
+            <img src="../Blog_Website_Media/blog_3_media/step_5.png" alt="step-1 image" class="step_1_img">
 
-            
+
 
         <!-- -----------Step-7------------ -->
             <p class="heading_no_3">Step-7:</p>
             <p class="Content_no_3-1">
-                create a folder names <b>src</b> and in that create a <b>input.css</b> file where all the tailwind css directive will be stored. And here you can create your custom class.
-            </p>
-            <img src="../Blog_Website_Media/blog_3_media/step_7.png" alt="step-1 image" class="step_3_img">
-
-
-
-        <!-- -----------Step-8------------ -->
-            <p class="heading_no_3">Step-8:</p>
-            <p class="Content_no_3-1">
-                Fill the <b>input.css</b> file as shown below.
-            </p>
-            <img src="../Blog_Website_Media/blog_3_media/step_8.png" alt="step-1 image" class="step_1_img">
-
-
-
-        <!-- -----------Step-9------------ -->
-            <p class="heading_no_3">Step-9:</p>
-            <p class="Content_no_3-1">
-                Now in the terminal execute run this : <b>npx tailwindcss -i ./src/input.css -o ./public/style.css --watch</b> here --watch is necessary because when you open your project later, every time you have to run this code to apply new changes of tailwind css. To this simple please refer next step.
+                Now in the terminal execute run this : <b>npx tailwindcss -i ./src/input.css -o ./src/output.css --watch</b> here --watch is necessary because when you open your project later, every time you have to run this code to apply new changes of tailwind css. To this simple please refer next step.
             </p>
             <!--=====================Things to understand box -->
             <div class="things_to_understand">
                 <p style="color: red;">Note:</p>
-                <p>This command uses npx to run Tailwind CSS, instructing it to process the ./src/input.css file, generate the output in ./public/style.css, and continuously watch for changes (--watch). It's a way to dynamically apply Tailwind CSS styles to your project during development. Here -i refers to "input" and -o refers to "output"</p>
+                <p>This command uses npx to run Tailwind CSS, instructing it to process the ./src/input.css file, generate the output in ./src/style.css, and continuously watch for changes (--watch). It's a way to dynamically apply Tailwind CSS styles to your project during development. Here -i refers to "input" and -o refers to "output"</p>
             </div>
             
             <div class="code_box">
-                <p>npx tailwindcss -i ./src/input.css -o ./public/style.css --watch</p> 
+                <p>npx tailwindcss -i ./src/input.css -o ./src/output.css --watch</p> 
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
                     <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
                 </svg>
             </div>
             <br>
-            <img src="../Blog_Website_Media/blog_3_media/step_9.png" alt="step-1 image" class="step_1_img">
+            <img src="../Blog_Website_Media/blog_3_media/step_6.png" alt="step-1 image" class="step_1_img">
 
 
 
-        <!-- -----------Step-10------------ -->
-            <p class="heading_no_3">Step-10:</p>
-            <p class="Content_no_3-1">
-                Go to <b>package.json</b> file in the scripts make changes as shown in the below two images.
-            </p>
-            <img src="../Blog_Website_Media/blog_3_media/step_10.png" alt="step-1 image" class="step_1_img">
-            <div class="code_box">
-                <p>tailwindcss -i ./src/input.css -o ./public/style.css --watch</p> 
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-code-slash" viewBox="0 0 16 16">
-                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
-                </svg>
-            </div>
-            <br>
-            <img src="../Blog_Website_Media/blog_3_media/step_11.png" alt="step-1 image" class="step_1_img">
-
-
-
-        <!-- -----------Step-11------------ -->
-            <p class="heading_no_3">Step-11:</p> 
+        <!-- -----------Step-8------------ -->
+            <p class="heading_no_3">Step-8:</p> 
             <p class="Content_no_3-1">
                 Now last step is to link tailwind css to html.
             </p>
-            <img src="../Blog_Website_Media/blog_3_media/step_12.png" alt="step-1 image" class="step_1_img">
+            <img src="../Blog_Website_Media/blog_3_media/step_7.png" alt="step-1 image" class="step_1_img">
 
         <!-- Conclusion--================ -->
             <p class="conclusion_heading">Conclusion</p>
